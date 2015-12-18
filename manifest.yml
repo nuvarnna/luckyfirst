@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: au-syd.mybluemix.net
+  name: luckyfirst
+  host: luckyfirst
+  disk_quota: 1024M
+  services:
+  - luckyfirst-cloudantNoSQLDB
+  - luckyfirst-imfpush
+  - luckyfirst-AdvancedMobileAccess
