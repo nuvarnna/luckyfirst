@@ -2,7 +2,7 @@ applications:
 - path: .
   memory: 512M
   instances: 1
-  domain: au-syd.mybluemix.net
+  domain: api.ng.bluemix.net
   name: luckyfirst
   host: luckyfirst
   disk_quota: 1024M
